@@ -1,0 +1,15 @@
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\bin\Debug\AnalizadorD.exe.config
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\bin\Debug\AnalizadorD.exe
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\bin\Debug\AnalizadorD.pdb
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.csprojAssemblyReference.cache
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\MainWindow.g.cs
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\App.g.cs
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD_MarkupCompile.cache
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD_MarkupCompile.lref
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\MainWindow.baml
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.g.resources
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.Properties.Resources.resources
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.csproj.GenerateResource.cache
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.csproj.CoreCompileInputs.cache
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.exe
+D:\ProyectoAnalizador\DecodificadorL-xico\Analizador\AnalizadorD\AnalizadorD\obj\Debug\AnalizadorD.pdb

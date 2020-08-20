@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Analizador.Properties
+namespace AnalizadorD.Properties
 {
 
 
