@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,55 @@ namespace Analizador
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        List<String> listaPalabras = new List<String>();
+        List<String> listaEnteros = new List<String>();
+        List<String> listaDecimales = new List<String>();
+        List<String> listaDinero = new List<String>();
+
         public MainWindow()
         {
             InitializeComponent();
+            Console.WriteLine("Pruebaaaaa");
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+          
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SepararPalabras(entradaTexto.Text);
+            
+        }
+
+        private void SepararPalabras(String oracion)
+        {
+
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ListViewItem_Selected(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            listGPalabras.Items.Clear();
+            listGDecimales.Items.Clear();
+            listGEnteros.Items.Clear();
+            listGMoneda.Items.Clear();
         }
     }
 }

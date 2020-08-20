@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Analizador"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" d:DesignWidth="717.113" Width="720">
+    <Grid Margin="0,0,3.8,5" HorizontalAlignment="Left">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="entradaTexto" HorizontalAlignment="Left" Height="55" Margin="10,32,-0.6,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="657" TextChanged="TextBox_TextChanged"/>
+        <Label Content="INSERTE SU ORACIÓN:" HorizontalAlignment="Left" Margin="10,1,-0.6,0" VerticalAlignment="Top" Width="657" Height="26"/>
+        <Button Content="ANALIZAR" HorizontalAlignment="Left" Margin="565,195,0,0" VerticalAlignment="Top" Width="97" Height="23" Click="Button_Click"/>
+        <ListView x:Name="listGPalabras" HorizontalAlignment="Left" Height="285" Margin="10,120,0,0" VerticalAlignment="Top" Width="121">
+        </ListView>
+        <ListView x:Name="listGEnteros" HorizontalAlignment="Left" Height="285" Margin="148,120,0,0" VerticalAlignment="Top" Width="121">
+        </ListView>
+        <ListView x:Name="listGDecimales" HorizontalAlignment="Left" Height="285" Margin="289,120,0,0" VerticalAlignment="Top" Width="121">
+        </ListView>
+        <ListView x:Name="listGMoneda" HorizontalAlignment="Left" Height="285" Margin="426,120,0,0" VerticalAlignment="Top" Width="121">
+        </ListView>
+        <Label Content="PALABRAS" HorizontalAlignment="Left" Margin="32,94,0,0" VerticalAlignment="Top" Width="71" FontWeight="Bold" Height="26"/>
+        <Label Content="ENTEROS" HorizontalAlignment="Left" Margin="176,94,0,0" VerticalAlignment="Top" Width="71" FontWeight="Bold" Height="26"/>
+        <Label Content="DECIMALES" HorizontalAlignment="Left" Margin="313,94,0,0" VerticalAlignment="Top" Width="76" FontWeight="Bold" Height="26"/>
+        <Label Content="MONEDA" HorizontalAlignment="Left" Margin="459,96,0,0" VerticalAlignment="Top" Width="63" FontWeight="Bold" Height="24"/>
+
     </Grid>
 </Window>
