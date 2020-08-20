@@ -27,6 +27,8 @@
         <Label Content="MONEDA" HorizontalAlignment="Left" Margin="530,115,0,0" VerticalAlignment="Top" Width="68" FontWeight="Bold"/>
         <Button x:Name="buttonAnalizar" Content="ANALIZAR" HorizontalAlignment="Left" Margin="654,161,0,0" VerticalAlignment="Top" Width="113" Click="Button1_Click" Height="32"/>
         <Button x:Name="buttonLimpiar" Content="LIMPIAR" HorizontalAlignment="Left" Margin="654,198,0,0" VerticalAlignment="Top" Width="113" Click="Button2_Click" Height="31"/>
+        <Label Content="MARCOS&#xD;&#xA;AGUARE&#xD;&#xA;201832069" HorizontalAlignment="Left" Margin="715,355,0,0" VerticalAlignment="Top" Height="57" Width="69"/>
+        <Button Content="LIMPIAR ORACIÓN" HorizontalAlignment="Left" Margin="654,234,0,0" VerticalAlignment="Top" Width="113" Height="32" Click="Button_Click"/>
 
     </Grid>
 </Window>

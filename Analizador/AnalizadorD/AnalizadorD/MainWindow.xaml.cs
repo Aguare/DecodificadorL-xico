@@ -218,5 +218,10 @@ namespace AnalizadorD
             }
             return false;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            textIngreso.Clear();
+        }
     }
 }
