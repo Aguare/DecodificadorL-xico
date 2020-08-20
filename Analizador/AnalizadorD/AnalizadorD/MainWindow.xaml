@@ -1,0 +1,32 @@
+﻿<Window x:Class="AnalizadorD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnalizadorD"
+        mc:Ignorable="d"
+        Title="Analizador" Height="450" Width="800">
+    <Grid Opacity="0.75" Background="{DynamicResource {x:Static SystemColors.GradientActiveCaptionBrushKey}}" Margin="0,0,-0.4,-2">
+        <Label Content="INGRESE SU ORACIÓN:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="textIngreso" HorizontalAlignment="Left" Height="74" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="757" TextChanged="TextBox_TextChanged" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}"/>
+        <ListView x:Name="listGPalabras" HorizontalAlignment="Left" Height="264" Margin="10,146,0,0" VerticalAlignment="Top" Width="172" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+
+        </ListView>
+        <Label Content="PALABRAS" HorizontalAlignment="Left" Margin="68,115,0,0" VerticalAlignment="Top" Width="72" FontWeight="Bold"/>
+        <ListView x:Name="listGEnteros" HorizontalAlignment="Left" Height="264" Margin="187,146,0,0" VerticalAlignment="Top" Width="141" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+
+        </ListView>
+        <Label Content="ENTEROS" HorizontalAlignment="Left" Margin="220,115,0,0" VerticalAlignment="Top" Width="63" FontWeight="Bold"/>
+        <ListView x:Name="listGDecimales" HorizontalAlignment="Left" Height="264" Margin="334,146,0,0" VerticalAlignment="Top" Width="144" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+
+        </ListView>
+        <Label Content="DECIMALES" HorizontalAlignment="Left" Margin="373,115,0,0" VerticalAlignment="Top" Width="78" FontWeight="Bold"/>
+        <ListView x:Name="listGMoneda" HorizontalAlignment="Left" Height="264" Margin="490,146,0,0" VerticalAlignment="Top" Width="139" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+
+        </ListView>
+        <Label Content="MONEDA" HorizontalAlignment="Left" Margin="530,115,0,0" VerticalAlignment="Top" Width="68" FontWeight="Bold"/>
+        <Button x:Name="buttonAnalizar" Content="ANALIZAR" HorizontalAlignment="Left" Margin="654,161,0,0" VerticalAlignment="Top" Width="113" Click="Button1_Click" Height="32"/>
+        <Button x:Name="buttonLimpiar" Content="LIMPIAR" HorizontalAlignment="Left" Margin="654,198,0,0" VerticalAlignment="Top" Width="113" Click="Button2_Click" Height="31"/>
+
+    </Grid>
+</Window>
